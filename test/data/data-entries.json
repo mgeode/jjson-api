@@ -1,0 +1,10 @@
+{
+  "ferrari" : {
+    "name" : "ferrari",
+    "date" : "16.03.2020-09:58:12",
+    "attributes" : [ {
+      "name" : "price",
+      "value" : "99999"
+    } ]
+  }
+}
