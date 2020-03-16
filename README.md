@@ -14,5 +14,5 @@ JAVA-Spingboot example with
     export DATA_DIR=/data
     export DATA_FILE=production.json
     export LOG_LEVEL=DEBUG
-    java -jar target/$(NAME).jar --logging.level.de.mgeo=$(LOG_LEVEL)
+    java -jar target/jjson-api.jar --logging.level.de.mgeo=$(LOG_LEVEL)
 ```
