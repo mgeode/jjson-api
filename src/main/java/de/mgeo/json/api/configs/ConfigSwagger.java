@@ -38,7 +38,7 @@ public class ConfigSwagger {
     private ApiInfo metadata() {
         return new ApiInfoBuilder()
                 //.title( buildProperties.getAppTitle() )
-                .description( "<div style='position: absolute; left:0; top: 0;background-color: #6da51a;height: 70px;border-bottom: 20px solid #efefef;width:100%;margin-bottom:-20em;padding: 7px 0px 3px 20px;'><a href='/' style='color:white;text-decoration:none;font-size: 1.2em;color:white;font-weight:bold;' title='HOME'><span style='background-color: #507913; border-radius: 65%; border: 1px solid #507913;padding: 2px 7px 6px 6px; font-size:110%;'>{ }</span>&nbsp; cicd - "+buildProperties.getAppTitle()+"</a></div><div style='margin-top: -40px;'></div>" )
+                .description( "<div style='position: absolute; left:0; top: 0;background-color: #6da51a;height: 70px;border-bottom: 20px solid #efefef;width:100%;margin-bottom:-20em;padding: 7px 0px 3px 20px;'><a href='/' style='color:white;text-decoration:none;font-size: 1.2em;color:white;font-weight:bold;' title='HOME'><span style='background-color: #507913; border-radius: 65%; border: 1px solid #507913;padding: 2px 7px 6px 6px; font-size:110%;'>{ }</span>&nbsp; "+buildProperties.getAppTitle()+"</a></div><div style='margin-top: -40px;'></div>" )
                 .version( buildProperties.getVersion() )
                 .build();
     }
