@@ -1,7 +1,7 @@
 
 NAME=jjson-api
 BUILD_NUMBER=dev
-APP_VERSION=1.1
+APP_VERSION=1.2
 LOG_LEVEL=DEBUG
 DATE:=`date '+%Y.%m.%d-%H:%M:%S'`
 
